@@ -1,0 +1,49 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzle-primary.dia",
+    "emit-module-dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzle-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzle-primary-emit-module.dia",
+    "pch" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzle-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzle-primary.swiftdeps"
+  },
+  "/Users/mac/Documents/block builds/BlockPuzzle/BlockPuzzleApp.swift" : {
+    "const-values" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp.d",
+    "diagnostics" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp.dia",
+    "index-unit-output-path" : "/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp.o",
+    "llvm-bc" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp.bc",
+    "object" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp.o",
+    "swift-dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp.swiftdeps",
+    "swiftmodule" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/BlockPuzzleApp~partial.swiftmodule"
+  },
+  "/Users/mac/Documents/block builds/BlockPuzzle/ContentView.swift" : {
+    "const-values" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/mac/Documents/block builds/BlockPuzzle/GameModel.swift" : {
+    "const-values" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel.d",
+    "diagnostics" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel.dia",
+    "index-unit-output-path" : "/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel.o",
+    "llvm-bc" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel.bc",
+    "object" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel.o",
+    "swift-dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel.swiftdeps",
+    "swiftmodule" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GameModel~partial.swiftmodule"
+  },
+  "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/mac/Documents/block builds/DerivedData/Build/Intermediates.noindex/BlockPuzzle.build/Debug-iphonesimulator/BlockPuzzle.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/mac/Documents/block builds/BlockPuzzle/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "New game",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Block Puzzle",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Fill rows or columns to clear space.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Moves",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "Score %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play Again",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Puzzle piece",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 268
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 287
+        }
+      }
+    ]
+  },
+  "version": 1
+}
