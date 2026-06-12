@@ -299,11 +299,18 @@ private struct BoardDropDelegate: DropDelegate {
     }
 
     private func guideLocation(for fingerLocation: CGPoint, piece: BlockPiece) -> CGPoint {
-        let liftedLocation = CGPoint(x: fingerLocation.x, y: fingerLocation.y - placementGuideLift)
+        let boardLength = CGFloat(GameModel.boardSize) * cellSize
+        let bottomLiftFadeStart = boardLength - (cellSize * 4)
+        let bottomLiftProgress = min(
+            max((boardLength - fingerLocation.y) / (boardLength - bottomLiftFadeStart), 0),
+            1
+        )
+        let adaptiveLift = placementGuideLift * bottomLiftProgress
+        let liftedLocation = CGPoint(x: fingerLocation.x, y: fingerLocation.y - adaptiveLift)
         let minX = CGFloat(piece.width) * cellSize / 2
-        let maxX = CGFloat(GameModel.boardSize) * cellSize - minX
+        let maxX = boardLength - minX
         let minY = CGFloat(piece.height) * cellSize / 2
-        let maxY = CGFloat(GameModel.boardSize) * cellSize - minY
+        let maxY = boardLength - minY
 
         return CGPoint(
             x: min(max(liftedLocation.x, minX), maxX),
