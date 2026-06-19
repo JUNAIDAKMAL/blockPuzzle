@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043AD6702FE54E8A00E62EA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043AD66F2FE54E8A00E62EA0 /* GoogleService-Info.plist */; };
+		043AD6732FE554F800E62EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AD6722FE554F800E62EA0 /* AppDelegate.swift */; };
+		043AD6762FE55AC200E62EA0 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 043AD6752FE55AC200E62EA0 /* FirebaseCore */; };
+		043AD6782FE55AC200E62EA0 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 043AD6772FE55AC200E62EA0 /* FirebaseMessaging */; };
 		1A0000062C10000100B10C0D /* BlockPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000022C10000100B10C0D /* BlockPuzzleApp.swift */; };
 		1A0000072C10000100B10C0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000032C10000100B10C0D /* ContentView.swift */; };
 		1A0000082C10000100B10C0D /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0000042C10000100B10C0D /* GameModel.swift */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043AD66D2FE54A9400E62EA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		043AD66E2FE54B5200E62EA0 /* BlockPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockPuzzle.entitlements; sourceTree = "<group>"; };
+		043AD66F2FE54E8A00E62EA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		043AD6722FE554F800E62EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A0000012C10000100B10C0D /* BlockPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A0000022C10000100B10C0D /* BlockPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockPuzzleApp.swift; sourceTree = "<group>"; };
 		1A0000032C10000100B10C0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,16 +34,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043AD6782FE55AC200E62EA0 /* FirebaseMessaging in Frameworks */,
+				043AD6762FE55AC200E62EA0 /* FirebaseCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043AD6742FE55AC200E62EA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1A0000112C10000100B10C0D = {
 			isa = PBXGroup;
 			children = (
 				1A0000122C10000100B10C0D /* BlockPuzzle */,
+				043AD6742FE55AC200E62EA0 /* Frameworks */,
 				1A0000132C10000100B10C0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,10 +61,14 @@
 		1A0000122C10000100B10C0D /* BlockPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				043AD66F2FE54E8A00E62EA0 /* GoogleService-Info.plist */,
+				043AD66E2FE54B5200E62EA0 /* BlockPuzzle.entitlements */,
+				043AD66D2FE54A9400E62EA0 /* Info.plist */,
 				1A0000022C10000100B10C0D /* BlockPuzzleApp.swift */,
 				1A0000032C10000100B10C0D /* ContentView.swift */,
 				1A0000042C10000100B10C0D /* GameModel.swift */,
 				1A0000052C10000100B10C0D /* Assets.xcassets */,
+				043AD6722FE554F800E62EA0 /* AppDelegate.swift */,
 			);
 			path = BlockPuzzle;
 			sourceTree = "<group>";
@@ -103,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 1A0000112C10000100B10C0D;
+			packageReferences = (
+				043AD6712FE5541C00E62EA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 1A0000132C10000100B10C0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -118,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A0000092C10000100B10C0D /* Assets.xcassets in Resources */,
+				043AD6702FE54E8A00E62EA0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043AD6732FE554F800E62EA0 /* AppDelegate.swift in Sources */,
 				1A0000062C10000100B10C0D /* BlockPuzzleApp.swift in Sources */,
 				1A0000072C10000100B10C0D /* ContentView.swift in Sources */,
 				1A0000082C10000100B10C0D /* GameModel.swift in Sources */,
@@ -261,12 +288,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlockPuzzle/BlockPuzzle.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 335JS5PGX8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockPuzzle/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Block Puzzle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -275,14 +307,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codex.blockpuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddev.blockpuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -291,11 +324,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlockPuzzle/BlockPuzzle.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 335JS5PGX8;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlockPuzzle/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Block Puzzle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -304,14 +342,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.codex.blockpuzzle;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jddev.blockpuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -337,6 +376,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		043AD6712FE5541C00E62EA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		043AD6752FE55AC200E62EA0 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043AD6712FE5541C00E62EA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		043AD6772FE55AC200E62EA0 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 043AD6712FE5541C00E62EA0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A0000172C10000100B10C0D /* Project object */;
 }
